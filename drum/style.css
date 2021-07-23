@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&family=Pacifico&display=swap");
+body {
+  font-size: 10px;
+  background: url('https://source.unsplash.com/collection/190727/1600x900');
+  background-size: 100%;
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+h1 {
+  font-family: "Nerko One", cursive;
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  margin-left: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: 1rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem pink;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #ffe8e7;
+}
